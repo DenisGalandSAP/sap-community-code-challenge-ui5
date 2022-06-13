@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0">
+    <Page>
+        <Button id="mainButton"/>
+        <List>
+            <items>
+                <StandardListItem title="1"/>
+                <StandardListItem title="2"/>
+                <StandardListItem title="3"/>
+            </items>
+        </List>
+    </Page>
+</mvc:View>
