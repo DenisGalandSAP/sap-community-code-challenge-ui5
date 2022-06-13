@@ -4,7 +4,8 @@
     height="100%"
     busyIndicatorDelay="0">
     <Page>
-        <Button id="mainButton"/>
+        <Button id="mainButton"
+            text="Press me"/>
         <List>
             <items>
                 <StandardListItem title="1"/>
