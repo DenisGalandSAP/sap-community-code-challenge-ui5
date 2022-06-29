@@ -52,10 +52,16 @@
           "name": "Main",
           "pattern": "",
           "target": ["Main"]
+        },
+        {
+          "name": "RouteDetail",
+          "pattern": "RouteDetail",
+          "target": ["Detail"]
         }
       ],
       "targets": {
-        "Main": { "viewName": "Main", "viewId": "Main" }
+        "Main": { "viewName": "Main", "viewId": "Main" },
+        "Detail": { "viewName": "Detail", "viewId": "Detail" }
       }
     },
     "rootView": {
